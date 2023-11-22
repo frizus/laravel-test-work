@@ -14,7 +14,7 @@ const clean = require('gulp-clean-css');
 var watch = require('gulp-watch');
 
 var svgPaths = ['resources/**/*.svg', 'resources/**/**/*.svg']
-var cssPaths = ['resources/scss/*.scss', 'resources/scss/**/*.scss', 'resources/scss/**/**/*.scss', 'resources/css/*.css', 'resources/css/**/.css', 'resources/css/**/**/.css']
+var cssPaths = ['resources/scss/*.scss', 'resources/scss/**/*.scss', 'resources/scss/**/**/*.scss', 'resources/css/*.css', 'resources/css/**/.css', 'resources/css/**/**/.css', 'resources/lib/bootstrap/scss/bootstrap.scss']
 var jsPaths = ['resources/js/*.js', 'resources/js/**/*.js', 'resources/js/**/**/*.js']
 var publicPath = 'public/assets'
 
